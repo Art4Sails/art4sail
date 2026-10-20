@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1"> -->
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+ <meta name="keywords" content="recycled art,upcycled art,repurposed art,handmade art,art 4 sail,art for sale,art for sail,dumpster divers">
+  <meta name="description" content="A personal photography portfolio.">
+  <title>Art4Sails web2 </title>
+  <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Home">ART4SAILS <span>Artwork Repurposed</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">Menu</button>
+    <nav id="mainNav" class="main-nav" aria-label="Main navigation">
+      <a href="#">Home</a>
+	  <a href="#gallery">Gallery</a>
+	  <a href="#about">Sold At</a>
+	  <a href="mailto:rickfrankosky@comcast.net">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Portfolio introduction">
+      <div class="hero-copy">
+        <p>
+<strong>Recycled Art - </strong> Most paintings become castaways. The jetsam floats to transfer stations, yard sales, thrift stores and dumpsters. <br> I salvage the wrecks for resurrection as gaff rigged Schooners, Sloops and Ketches. 
+<br>
+A weathered, cedar fence becomes a hull.  Sun flower stalks work well as booms.  
+<br>
+Upcycled materials find new value and appreciation.</p>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section" aria-label="Photo portfolio">
+      <div class="gallery-toolbar">
+        <nav id="categoryFilters" class="category-filters" aria-label="Filter gallery by category">
+          <button class="filter-button active" data-category="all">All</button>
+        </nav>
+        <span class="gallery-count" id="galleryCount"></span>
+      </div>
+      <div id="galleryGrid" class="gallery-grid"></div>
+      <p id="emptyMessage" class="empty-message" hidden>No photographs in this collection yet.</p>
+    </section>
+
+    <section id="about" class="about-section">
+      <p class="eyebrow">Can be seen at:</p>
+	  
+	<div class="links-container">
+
+    <a href="https://nesketchbook.com/" target="_blank" rel="noopener noreferrer">
+         New England Sketch Book, Newburyport MA 
+    </a>
+
+    <a href="https://cleverhandgallery.com/" target="_blank" rel="noopener noreferrer">
+         Clever Hand Gallery, Wellesley MA 
+    </a>
+
+    <a href="http://www.larkingallery.com/" target="_blank" rel="noopener noreferrer">
+        Larkin Gallery, Provincetown MA 
+    </a>
+
+    <a href="https://repurposedonline.com/" target="_blank" rel="noopener noreferrer">
+         Repurposed Gallery, Provincetown MA 
+    </a>
+
+    <a href="https://mysticnautical.com/" target="_blank" rel="noopener noreferrer">
+         Mystic Nautical, Mystic CT 
+    </a>
+    <a  href="https://jackandtoba.com/" target="_blank" rel="noopener noreferrer"> Jack &amp; Toba, Concord MA
+    </a>
+
+</div>
+</section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> ART4SAILS - SNOWBLINDDESIGN</span>
+    <span><a href="mailto:rickfrankosky@comcast.net">Get in touch</a></span>
+  </footer>
+
+  <dialog id="lightbox" class="lightbox" aria-label="Photograph viewer">
+    <button class="lightbox-close" id="closeLightbox" aria-label="Close photograph viewer">×</button>
+    <button class="lightbox-nav prev" id="prevPhoto" aria-label="Previous photograph">‹</button>
+    <figure><img id="lightboxImage" alt=""><figcaption id="lightboxCaption"></figcaption></figure>
+    <button class="lightbox-nav next" id="nextPhoto" aria-label="Next photograph">›</button>
+    <div class="lightbox-counter" id="lightboxCounter"></div>
+  </dialog>
+  <script src="Java/script.js"></script>
+</body>
+</html>
