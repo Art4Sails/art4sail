@@ -4,28 +4,28 @@
   Use matching image proportions if you want to minimize cropping in the uniform 4:3 grid.
 */
 const PHOTO_LIST = [
-  { src:"images/capelight200.webp", full:"images/capelight.webp", title:"Cape Light", category:"Sloop", location:"l18xh20", alt:"Cape Light" },
-  { src:"images/approachingsails.webp", full:"images/approachingsails.webp", title:"Approaching Sails", category:"Sloop", location:"l20xh22", alt:"Mist and Waves" },
-  { src:"images/perfectday.webp", full:"images/perfectday.webp", title:"Perfect Day", category:"Sloop", location:"l18xh20", alt:"Perfect day to sail" },
-  { src:"images/racingsails.webp", full:"images/racingsails.webp", title:"Racing Sails", category:"Schooner", location:"l20xh24", alt:"Racing to the horizon" },
-  { src:"images/safeharbor.webp", full:"images/safeharbor.webp", title:"Sails at rest", category:"Sloop", location:"l18xh20 ", alt:"Ships at rest" },
-  { src:"images/squaredrigged.webp", full:"images/squaredrigged.webp", title:"Square Rigged", category:"Sloop", location:"l18xh20 ", alt:"Old quare rigged ship" },
-  { src:"images/gaffrigged.webp", full:"images/gaffrigged.webp", title:"Gaff Rigged", category:"Sloop", location:"500jpg", alt:"Old gaff rigged ship" },
-  { src:"images/fadeingsun.webp", full:"images/fadeingsun.webp", title:"Fadeing Sun", category:"Schooner", location:"l20xh24", alt:"Sun goes down after day on the water" },
-  {src:"images/beachcruiseI.webp", full:"images/beachcruiseI.webp", title:"Beach Cruise", category:"Sloop", location:"l18xh20", alt:"Cruise along the shore" },
-  { src:"images/beachcruiseII.webp", full:"images/beachcruiseII.webp", title:"Beach Cruise II", category:"Schooner", location:"l20xh24 ", alt:"Cruise along the shore" },
+  { src:"images/capelight200.webp", full:"images/capelight.webp", title:"Cape Light", category:"Sloops", location:"l18xh20", alt:"Cape Light" },
+  { src:"images/approachingsails.webp", full:"images/approachingsails.webp", title:"Approaching Sails", category:"Sloops", location:"l20xh22", alt:"Mist and Waves" },
+  { src:"images/perfectday.webp", full:"images/perfectday.webp", title:"Perfect Day", category:"Sloops", location:"l18xh20", alt:"Perfect day to sail" },
+  { src:"images/racingsails.webp", full:"images/racingsails.webp", title:"Racing Sails", category:"Schooners", location:"l20xh24", alt:"Racing to the horizon" },
+  { src:"images/safeharbor.webp", full:"images/safeharbor.webp", title:"Sails at rest", category:"Sloops", location:"l18xh20 ", alt:"Ships at rest" },
+  { src:"images/squaredrigged.webp", full:"images/squaredrigged.webp", title:"Square Rigged", category:"Sloops", location:"l18xh20 ", alt:"Old quare rigged ship" },
+  { src:"images/gaffrigged.webp", full:"images/gaffrigged.webp", title:"Gaff Rigged", category:"Sloops", location:"500jpg", alt:"Old gaff rigged ship" },
+  { src:"images/fadeingsun.webp", full:"images/fadeingsun.webp", title:"Fadeing Sun", category:"Schooners", location:"l20xh24", alt:"Sun goes down after day on the water" },
+  {src:"images/beachcruiseI.webp", full:"images/beachcruiseI.webp", title:"Beach Cruise", category:"Sloops", location:"l18xh20", alt:"Cruise along the shore" },
+  { src:"images/beachcruiseII.webp", full:"images/beachcruiseII.webp", title:"Beach Cruise II", category:"Schooners", location:"l20xh24 ", alt:"Cruise along the shore" },
   
-  {src:"images/seasquall_IIbig.webp", full:"images/seasquall_IIbig.webp", title:"Sea Squall", category:"Sloop", location:"l18xh20", alt:"Storm at Sea" },
+  {src:"images/seasquall_IIbig.webp", full:"images/seasquall_IIbig.webp", title:"Sea Squall", category:"Sloops", location:"l18xh20", alt:"Storm at Sea" },
 
-  {src:"images/seastorm.webp", full:"images/seastorm.webp", title:"Sea Storm", category:"Sloop", location:"l18xh20", alt:"Rough Weather" },
+  {src:"images/seastorm.webp", full:"images/seastorm.webp", title:"Sea Storm", category:"Sloops", location:"l18xh20", alt:"Rough Weather" },
 
-  {src:"images/stormking.webp", full:"images/stormking.webp", title:"Storm King", category:"Sloop", location:"l18xh20", alt:"Rough Sailing" } ,
+  {src:"images/stormking.webp", full:"images/stormking.webp", title:"Storm King", category:"Sloops", location:"l18xh20", alt:"Rough Sailing" } ,
   
-   {src:"images/yachtrace.webp", full:"images/yachtrace.webp", title:"Yacht Race", category:"Sloop", location:"l18xh20", alt:"Storm at Sea" },
+   {src:"images/yachtrace.webp", full:"images/yachtrace.webp", title:"Yacht Race", category:"Sloops", location:"l18xh20", alt:"Storm at Sea" },
 
-  {src:"images/yachtraceII.webp", full:"images/yachtraceII.webp", title:"Yacht Race II", category:"Schooner", location:"l20xh24", alt:"Yacht Race II" },
+  {src:"images/yachtraceII.webp", full:"images/yachtraceII.webp", title:"Yacht Race II", category:"Schooners", location:"l20xh24", alt:"Yacht Race II" },
 
-  {src:"images/boathouse.webp", full:"images/boathouse.webp", title:"Boat House", category:"Sloop", location:"l18xh20", alt:"Rough Sailing" } 
+  {src:"images/boathouse.webp", full:"images/boathouse.webp", title:"Boat House", category:"Sloops", location:"l18xh20", alt:"Rough Sailing" } 
   
 ];
 
